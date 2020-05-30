@@ -1,0 +1,13 @@
+main: CompacContraption.Main
+version: 1.0.0
+name: CompactContraption
+authors: [Mathias0903]
+api-version: 1.13
+commands:
+  compact:
+    description: main command for compact contraptions
+    usage: /compact (arg) (arg)
+permissions:
+  compactContraption.admin:
+    description: Allows compact main command
+    default: op

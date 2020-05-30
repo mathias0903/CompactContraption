@@ -1,0 +1,34 @@
+# so under here you will see the crafting yml by
+# default there is only two diffrente but you can
+# add as many as you want just add them and be
+# sure that the internel_id is diffrent
+# name is well the name of the shulkerbox/compactContraption you will get with the recipe
+# SizeX/Y/Z is well how big it is in the different directions
+# on the inside, they don´t need to be the same or be a uneven number but i do recommend uneven numbers
+# the next is the crafting section each letter corresponds to a ingredient
+# and the 3 rows with 3 letters represent the crafting grid
+CompactContraption:
+  INTERNEL_ID:
+    Name: "&73x3x3 Compact Contraption"
+    SizeX: 3
+    SizeY: 3
+    SizeZ: 3
+    crafting:
+      1: 'AAA'
+      2: 'ABA'
+      3: 'AAA'
+      materials:
+        A: IRON_INGOT
+        B: IRON_NUGGET
+  INTERNEL_ID_2:
+    Name: "&77x5x5 Compact Contraption"
+    SizeX: 7
+    SizeY: 5
+    SizeZ: 5
+    crafting:
+      1: 'AAA'
+      2: 'ABA'
+      3: 'AAA'
+      materials:
+        B: IRON_INGOT
+        A: IRON_NUGGET

@@ -1,0 +1,12 @@
+# you can use color codes such as &1
+place:
+  # message when a player tries to place a CompactContraption within a CompactContraption
+  compact: "You cant place a CompactContraption within a CompactContraption"
+  # message when a player tries to place a Bed within a CompactContraption
+  bed: "You cant place a bed within a CompactContraption"
+break:
+  # message when a player tries to break one of the input/output blocks
+  input_output: "You cant break a input/output block"
+gui:
+  # message when a player clicks on the load button
+  load: "Youre CompactContraption has been loaded"

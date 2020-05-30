@@ -1,0 +1,26 @@
+World:
+  # the Difficulty inside compact contraptions blocks can be:
+  # PEACEFUL, EASY, NORMAL, HARD
+  Difficulty: "PEACEFUL"
+  # the Environment inside compact contraptions blocks can be:
+  # NORMAL, NETHER, THE_END
+  Environment: "NORMAL"
+  # the time between transfer of items and redstone signals
+  # between the CompactMachine Block and CompactMachine Box in ticks
+  # i advise a timer of 6 whice is the same rate as a hopper
+  Timer: 10
+  #distance in chunks between the bedrock boxes in the world
+  #make sure the distance in chunks is so a player in one box
+  #dosen´t load any others
+  distance: 20
+Commands:
+  # whether the list should act as a whitelist only allowing
+  # commands from the list inside the compactcontraptions
+  # or if it should act as a blacklist not allowing
+  # the commands on the list
+  Whitelist: true
+  #commands without the /
+  List:
+    - spawn
+    - home
+
